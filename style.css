@@ -1,0 +1,509 @@
+body { margin: 0; background-color: rgb(30, 29, 29); }
+
+#title{
+    position: absolute;
+    top:  25px;
+    left: -150px;
+    font-size: 30px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+}
+
+#subTitle{
+    position: absolute;
+    top: 125px;
+      left: -150px;
+    font-size: 25px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+}
+
+#home{
+    position: absolute;
+    top:  75px;
+    left: -150px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+      background-color: rgba(0,0,0,.36);
+        text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+      background-color: rgba(0,0,0,.36);
+}
+
+
+#csv{
+    position: absolute;
+    top:  75px;
+    left: -150px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+      background-color: rgba(0,0,0,.36);
+}
+
+
+#code{
+    position: absolute;
+    top:  75px;
+    left: -150px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    border-bottom: none;
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+      background-color: rgba(0,0,0,.36);
+}
+
+#code2{
+    position: absolute;
+    top:  75px;
+    left: -150px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+      background-color: rgba(0,0,0,.36);
+}
+
+
+
+#shasta{
+    position: absolute;
+    top: 150px;
+    width: 350px;
+    left: -300px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+#bird{
+    position: absolute;
+    top: 150px;
+    width: 350px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+#one{
+    position: absolute;
+    height: 360px;
+    top:  630px;
+    left: -150px;
+    width: 750px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    border: 2px solid grey;
+    padding: 8px;
+    text-align: justify;
+}
+
+#two{
+    position: absolute;
+    height: 300px;
+    width: 750px;
+    top:  1035px;
+    left: -150px;
+    font-size: 25px;
+    padding: 8px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    border: 2px solid grey;
+    padding: 3px;
+    text-align: justify;
+}
+
+
+#img1{
+    position: absolute;
+    top:  602px;
+    left: -150px;
+    font-size: 14px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+
+}
+
+#img2{
+    position: absolute;
+    top:  602px;
+    left: -150px;
+    font-size: 14px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#density{
+    position: absolute;
+    top: 200px;
+    width: 420px; 
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+#pyramid{
+    position: absolute;
+    top: 535px;
+    width: 420px;
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+
+}
+
+#water{
+  position: absolute;
+    top: 950px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+#collect{
+  position: absolute;
+    top: 1515px;
+    width: 420px;
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+
+
+#race{
+  position: absolute;
+    top: 2040px;
+    width: 420px;
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+
+
+
+
+#link{
+    position: absolute;
+    top:  75px;
+    left: -150px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(0,0,0,.36);
+}
+
+
+
+
+
+
+
+#des1{
+    position: absolute;
+    top:  200px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+#des2{
+    position: absolute;
+    top: 535px;
+    left: -150px;
+    width: 400px;    
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+#des3{
+    position: absolute;
+    top: 950px ;
+    left: -150px;
+    width: 400px;    
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+#des4{
+    position: absolute;
+    top:  1515px;
+    left: -150px;
+    width: 400px;    
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+#des5{
+    position: absolute;
+    top:  2040px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#figure1{
+  position: absolute;
+    top: 200px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box1{
+    position: absolute;
+    top:  200px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure2{
+  position: absolute;
+    top: 500px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box2{
+    position: absolute;
+    top:  500px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure3{
+  position: absolute;
+    top: 800px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box3{
+    position: absolute;
+    top:  800px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure4{
+  position: absolute;
+    top: 1100px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box4{
+    position: absolute;
+    top:  1100px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure5{
+  position: absolute;
+    top: 1400px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box5{
+    position: absolute;
+    top:  1400px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure6{
+  position: absolute;
+    top: 1700px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box6{
+    position: absolute;
+    top:  1700px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure7{
+  position: absolute;
+    top: 2020px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box7{
+    position: absolute;
+    top:  2020px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+#figure8{
+  position: absolute;
+    top: 2390px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box8{
+    position: absolute;
+    top:  2390px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+#figure9{
+  position: absolute;
+    top: 2700px;
+    width: 420px; 
+    object-fit: cover;
+    left: -300px;
+    border: 2px solid grey;
+    transform: translate(-50%);
+}
+#box9{
+    position: absolute;
+    top:  2700px;
+    left: -150px;
+    width: 400px;
+    font-size: 23px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    padding: 8px;
+}
+
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>fluids</title>
+    <link rel="stylesheet" href="fluid.css">
+  </head>
+
+  <body>
+
+    <a href="index.html" id = "home">Go home</a>
+
+    <div id = "click"      > Click anywhere    </div> 
+
+    <div class="slider">
+
+      <input 
+      type  ="range"
+      min   ="0" 
+      max   ="100" 
+      value ="50" 
+      id    ="repulseSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="1" 
+      max   ="1000" 
+      value ="100" 
+      id    ="countSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="10" 
+      max   ="100" 
+      value ="50" 
+      id    ="forceDistSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="0" 
+      max   ="200" 
+      value ="40" 
+      id    ="spawnDistSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="0" 
+      max   ="100" 
+      value ="0" 
+      id    ="spawnSpeedSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="1" 
+      max   ="10" 
+      value ="5" 
+      id    ="sizeSlider"
+      >
+
+      <input 
+      type  ="range"
+      min   ="950" 
+      max   ="1000" 
+      value ="998" 
+      id    ="frictionSlider"
+      >
+
+      <div id = "countLabel"      > Spawn Count    </div> 
+      <div id = "repulseLabel"    > Force          </div>
+      <div id = "forceDistLabel"  > Force Distance </div> 
+      <div id = "spawnDistLabel"  > Spawn Radius   </div>
+      <div id = "spawnSpeedLabel" > Spawn Speed    </div> 
+      <div id = "sizeLabel"       > Particle Size  </div>
+      <div id = "frictionLabel"   > Friction (inv) </div>
+      <div id = "back"            >                </div>
+
+      <button id = "clear" > X</button>
+    </div>
+
+
+    <div  class = "bodies"  ></div   >
+
+    <script src = "loop.js" ></script>
+  </body>
+
+</html>

@@ -1,0 +1,81 @@
+body { margin: 0; background-color: rgb(30, 29, 29); }
+
+.bodies * {
+    border-radius: 50%;
+    position: absolute; 
+    background-color: grey;
+    transform: translate(-50%, -50%);
+}
+
+.slider * {
+    position: absolute;
+    z-index:        10;
+    color:     white;
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+}
+#repulseSlider    { left:  20px; top: 20px; }
+#countSlider      { left: 140px; top: 20px; }
+#forceDistSlider  { left: 260px; top: 20px; }
+#spawnDistSlider  { left: 380px; top: 20px; }
+#spawnSpeedSlider { left: 500px; top: 20px; }
+#sizeSlider       { left: 620px; top: 20px; }
+#frictionSlider   { left: 740px; top: 20px; }
+
+#repulseLabel     { left:  25px; top: 50px; }
+#countLabel       { left: 145px; top: 50px; }
+#forceDistLabel   { left: 265px; top: 50px; }
+#spawnDistLabel   { left: 385px; top: 50px; }
+#spawnSpeedLabel  { left: 505px; top: 50px; }
+#sizeLabel        { left: 625px; top: 50px; }
+#frictionLabel    { left: 745px; top: 50px; }
+
+
+#clear {
+    left: 870px; 
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    font-size: 20px;
+}
+
+#back {
+    border-radius:       20px;
+    border: 2px solid white;
+    height:              65px;
+    width:              930px;
+    left:                10px;
+    top:                 10px;
+    z-index: 5;
+    background-color: rgba(0,0,0,.36);
+}
+
+#home{
+    position: absolute;
+    left: 1000px;
+    top: 25px;
+    font-size: 20px;
+    color: rgb(206, 197, 197);
+    transform: translate(-50%);
+    text-decoration: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 5;
+    background-color: rgba(0,0,0,.36);
+}
+
+
+#click{
+    position: absolute;
+    top: 85px;
+    left: 10px;
+    font-size: 14px;
+    color: rgb(206, 197, 197);
+
+    text-decoration: none;
+    z-index: 5;
+
+}
